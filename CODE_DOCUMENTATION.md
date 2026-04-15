@@ -1054,7 +1054,7 @@ $$t = \frac{\bar{x}_1 - \bar{x}_2}{\sqrt{s_1^2/n_1 + s_2^2/n_2}}$$
 Compares two independent group means without assuming equal variances. Used here to compare Stock 1 vs Stock 2 returns.
 
 ### 5.9 Paired t-Test
-$$t = \frac{\bar{d}}{s_d / \sqrt{n}}, \quad d_i = x_{i,1} - x_{i,2}$$
+$$t = \frac{\bar{d}}{s_d / \sqrt{n}}, \quad d_i = x_{i,\text{first}} - x_{i,\text{second}}$$
 Tests matched pairs (same stock, different time periods). Works on differences rather than raw values.
 
 ### 5.10 One-Way ANOVA
@@ -1095,4 +1095,4 @@ Transforms each feature to have mean=0 and std=1. Necessary because features lik
 
 ---
 
-*Document generated for the Equity Intelligence Dashboard project. All line numbers reference the current codebase.*
+*Document generated for the Equity Intelligence Dashboard project. All line numbers reference the codebase as of April 2026.*
